@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { Client, Util } = require('discord.js');
 const client = new Discord.Client();
 const { PREFIX, GOOGLE_API_KEY } = require('./config');
-const prefix = '1'
+const prefix = '4'
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const youtube = new YouTube(GOOGLE_API_KEY);
@@ -17,7 +17,7 @@ const bot = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Crezma | 1play`,"https://www.twitch.tv/7alabygamer98")
+client.user.setGame(`Crezma | 4play`,"https://www.twitch.tv/7alabygamer98")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
