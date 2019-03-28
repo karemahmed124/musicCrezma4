@@ -17,7 +17,7 @@ const bot = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Crezma | 4play`,"https://www.twitch.tv/7alabygamer98")
+client.user.setGame(`Victoria| 4play`,"https://www.twitch.tv/7alabygamer98")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
